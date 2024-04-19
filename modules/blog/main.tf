@@ -20,7 +20,7 @@ module "blogm_vpc" {
   name = "martin-${var.environment.name}"
   cidr = "${var.environment.network_prefix}.0.0/16"
 
-  azs             = ["us-west-1a","us-west-1b","us-west-1c"]
+  azs             = ["us-west-1b","us-west-1c"]
   public_subnets  = ["${var.environment.network_prefix}.101.0/24", "${var.environment.network_prefix}.102.0/24", "${var.environment.network_prefix}.103.0/24"]
 
 
