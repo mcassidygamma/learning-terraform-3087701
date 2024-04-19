@@ -59,7 +59,7 @@ load_balancer_type = "application"
 
   target_groups = [
     {
-      name_prefix      = "blog-martin-"
+      name_prefix      = "blogm-"
       backend_protocol = "HTTP"
       backend_port     = 80
       target_type      = "instance"
